@@ -1,0 +1,263 @@
+/* About Us Page Styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Welcome to Coffee Time Section */
+
+.welcome-section {
+  padding: 100px 20px;
+  /* background: linear-gradient(to right, #ff6f61, #d500f9); */
+  background: rgb(121,64,40);
+  background: linear-gradient(312deg, rgba(121,64,40,0) 4%, rgba(255,188,143,0.2777485994397759) 29%, rgba(75,31,14,1) 93%, rgba(85,40,21,1) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.welcome-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.welcome-text {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  margin-right: -50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.welcome-text:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.welcome-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f1f1f1;
+  line-height: 1.8;
+}
+
+.icon-container {
+  margin-top: 20px;
+}
+
+.animated-icon {
+  font-size: 2.5rem;
+  margin: 0 10px;
+  color: #ffd700;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.animated-icon:hover {
+  transform: scale(1.3);
+  color: #ffffff;
+}
+
+.welcome-image {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  margin-left: -50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.welcome-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* _________ */
+
+
+/* Our Story Section */
+
+.our-story {
+  position: relative;
+  padding: 100px 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-container {
+  position: relative;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-image {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  margin-right: -50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 610px;
+}
+
+.story-image img {
+  width: 100%;
+  /* border-radius: 15px; */
+  transition: transform 0.3s ease;
+}
+
+.story-text {
+  flex: 1;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+  margin-left: -50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-text:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.story-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.story-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.icon-container {
+  margin-top: 20px;
+}
+
+.animated-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #ff6f61;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.animated-icon:hover {
+  transform: scale(1.3);
+  color: #ffd700;
+}
+
+/* -------- */
+
+/* Meet the Team Section */
+
+.team-section {
+  padding: 0rem 5rem;
+  padding-bottom: 5rem;
+  /* background-color: #d6a07a; */
+  text-align: center;
+  width: 45rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.team-section h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.team-container {
+  display: flex;
+  gap: 7rem;
+}
+
+.team-member {
+  width: 20rem;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.member-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.member-image img:hover {
+  transform: scale(1.1);
+}
+
+.member-info {
+  padding: 20px;
+  text-align: left;
+}
+
+.member-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.member-info p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.member-info .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.animated-icon {
+  font-size: 1.5rem;
+  color: #ff6f61;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.animated-icon:hover {
+  transform: scale(1.3);
+  color: #ffd700;
+}
+
+.footer::after {
+  margin-top: -345px;
+}
+

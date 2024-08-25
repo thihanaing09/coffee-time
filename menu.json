@@ -1,0 +1,340 @@
+{
+  "menu": [
+    {
+      "category": "Cakes",
+      "items": [
+        {
+          "id": 101,
+          "name": "Chocolate Cake",
+          "description": "Rich and moist chocolate cake with a creamy chocolate frosting.",
+          "price": 12.99,
+          "image": "images/cakes/cake1.jpg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 10
+        },
+        {
+          "id": 102,
+          "name": "Vanilla Sponge Cake",
+          "description": "Light and fluffy vanilla sponge cake topped with vanilla buttercream.",
+          "price": 10.99,
+          "image": "images/cakes/cake2.jpeg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 20
+        },
+        {
+          "id": 103,
+          "name": "Sponge Cake",
+          "description": "Light and fluffy vanilla sponge cake topped with vanilla buttercream.",
+          "price": 10.99,
+          "image": "images/cakes/cake3.jpeg",
+          "isPopular": true,
+          "isNewArrival": true,
+          "isDiscounted": 0
+        },
+        {
+          "id": 104,
+          "name": "Red Velvet Cake",
+          "description": "Delicious red velvet cake with cream cheese frosting.",
+          "price": 14.99,
+          "image": "images/cakes/cake4.jpeg",
+          "isPopular": true,
+          "isNewArrival": true,
+          "isDiscounted": 15
+        },
+        {
+          "id": 105,
+          "name": "Carrot Cake",
+          "description": "Spiced carrot cake with a hint of cinnamon and cream cheese frosting.",
+          "price": 13.99,
+          "image": "images/cakes/cake5.jpeg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 5
+        },
+        {
+          "id": 106,
+          "name": "Cheesecake",
+          "description": "Classic cheesecake with a buttery graham cracker crust.",
+          "price": 11.99,
+          "image": "images/cakes/cake6.jpeg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 10
+        },
+        {
+          "id": 107,
+          "name": "Lemon Drizzle Cake",
+          "description": "Zesty lemon cake with a tangy glaze.",
+          "price": 9.99,
+          "image": "images/cakes/cake7.jpg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 0
+        },
+        {
+          "id": 108,
+          "name": "Coffee Cake",
+          "description": "Coffee-flavored cake with a crumbly topping.",
+          "price": 12.49,
+          "image": "images/cakes/cake8.jpeg",
+          "isPopular": false,
+          "isNewArrival": false,
+          "isDiscounted": 5
+        },
+        {
+          "id": 109,
+          "name": "Black Forest Cake",
+          "description": "Decadent chocolate cake with cherries and whipped cream.",
+          "price": 15.99,
+          "image": "images/cakes/cake9.jpeg",
+          "isPopular": false,
+          "isNewArrival": false,
+          "isDiscounted": 0
+        },
+        {
+          "id": 1010,
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+          "price": 13.49,
+          "image": "images/cakes/cake11.jpeg",
+          "isPopular": false,
+          "isNewArrival": false,
+          "isDiscounted": 10
+        }
+      ]
+    },
+    {
+      "category": "Coffee",
+      "items": [
+        {
+          "id": 201,
+          "name": "Espresso",
+          "description": "Strong and rich shot of espresso.",
+          "price": 2.99,
+          "image": "images/coffee/coffee1.jpeg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 10
+        },
+        {
+          "id": 202,
+          "name": "Latte",
+          "description": "Creamy latte with a smooth finish.",
+          "price": 3.99,
+          "image": "images/coffee/coffee2.jpeg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": false
+        },
+        {
+          "id": 203,
+          "name": "Americano",
+          "description": "Smooth and rich Americano with a full-bodied flavor.",
+          "price": 3.99,
+          "image": "images/coffee/coffee3.jpeg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 30
+        },
+        {
+          "id": 204,
+          "name": "Cappuccino",
+          "description": "Espresso topped with steamed milk and foam.",
+          "price": 4.49,
+          "image": "images/coffee/coffee4.jpg",
+          "isPopular": false,
+          "isNewArrival": false,
+          "isDiscounted": 5
+        },
+        {
+          "id": 205,
+          "name": "Macchiato",
+          "description": "Espresso with a touch of frothy milk.",
+          "price": 3.49,
+          "image": "images/coffee/coffee5.jpeg",
+          "isPopular": true,
+          "isNewArrival": true,
+          "isDiscounted": 0
+        },
+        {
+          "id": 206,
+          "name": "Mocha",
+          "description": "Espresso blended with chocolate syrup and steamed milk.",
+          "price": 4.99,
+          "image": "images/coffee/coffee6.jpeg",
+          "isPopular": false,
+          "isNewArrival": false,
+          "isDiscounted": 10
+        },
+        {
+          "id": 207,
+          "name": "Flat White",
+          "description": "Rich espresso with velvety steamed milk.",
+          "price": 4.49,
+          "image": "images/coffee/coffee7.jpeg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 0
+        },
+        {
+          "id": 208,
+          "name": "Affogato",
+          "description": "Espresso poured over a scoop of vanilla ice cream.",
+          "price": 5.49,
+          "image": "images/coffee/coffee8.jpeg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 15
+        },
+        {
+          "id": 209,
+          "name": "Cold Brew",
+          "description": "Smooth and refreshing cold brew coffee.",
+          "price": 3.99,
+          "image": "images/coffee/coffee9.jpeg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 0
+        },
+        {
+          "id": 2010,
+          "name": "Nitro Coffee",
+          "description": "Cold brew coffee infused with nitrogen for a creamy texture.",
+          "price": 4.99,
+          "image": "images/coffee/coffee10.jpg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 10
+        },
+        {
+          "id": 2011,
+          "name": "Nitro Coffee",
+          "description": "Cold brew coffee infused with nitrogen for a creamy texture.",
+          "price": 4.99,
+          "image": "images/coffee/coffee11.jpg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 10
+        },
+        {
+          "id": 2012,
+          "name": "Nitro Coffee",
+          "description": "Cold brew coffee infused with nitrogen for a creamy texture.",
+          "price": 4.99,
+          "image": "images/coffee/coffee12.jpg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 10
+        }
+      ]
+    },
+    {
+      "category": "Products",
+      "items": [
+        {
+          "id": 301,
+          "name": "Coffee Beans",
+          "description": "100% Arabica coffee beans.",
+          "price": 15.99,
+          "image": "images/products/package2.png",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": false
+        },
+        {
+          "id": 302,
+          "name": "Ground Coffee",
+          "description": "Medium roast ground coffee.",
+          "price": 12.99,
+          "image": "images/products/package2.png",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": false
+        },
+        {
+          "id": 303,
+          "name": "Espresso Pods",
+          "description": "Convenient espresso pods for quick brewing.",
+          "price": 8.99,
+          "image": "images/products/package2.png",
+          "isPopular": true,
+          "isNewArrival": true,
+          "isDiscounted": 5
+        },
+        {
+          "id": 304,
+          "name": "Cold Brew Concentrate",
+          "description": "Ready-to-use cold brew concentrate.",
+          "price": 14.99,
+          "image": "images/products/cold-brew-concentrate.jpg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 10
+        },
+        {
+          "id": 305,
+          "name": "French Press",
+          "description": "Stainless steel French press for perfect coffee brewing.",
+          "price": 24.99,
+          "image": "images/products/french-press.jpg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 0
+        },
+        {
+          "id": 306,
+          "name": "Coffee Grinder",
+          "description": "Electric coffee grinder with adjustable settings.",
+          "price": 29.99,
+          "image": "images/products/coffee-grinder.jpg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 15
+        },
+        {
+          "id": 307,
+          "name": "Milk Frother",
+          "description": "Handheld milk frother for creamy lattes.",
+          "price": 12.99,
+          "image": "images/products/milk-frother.jpg",
+          "isPopular": false,
+          "isNewArrival": true,
+          "isDiscounted": 5
+        },
+        {
+          "id": 308,
+          "name": "Reusable Coffee Filter",
+          "description": "Eco-friendly reusable coffee filter.",
+          "price": 9.99,
+          "image": "images/products/reusable-coffee-filter.jpg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 10
+        },
+        {
+          "id": 309,
+          "name": "Pour-Over Coffee Maker",
+          "description": "Glass pour-over coffee maker for rich flavors.",
+          "price": 19.99,
+          "image": "images/products/pour-over-coffee-maker.jpg",
+          "isPopular": true,
+          "isNewArrival": true,
+          "isDiscounted": 0
+        },
+        {
+          "id": 3010,
+          "name": "Aeropress",
+          "description": "Portable coffee press for quick and easy brewing.",
+          "price": 34.99,
+          "image": "images/products/aeropress.jpg",
+          "isPopular": true,
+          "isNewArrival": false,
+          "isDiscounted": 20
+        }
+      ]
+    }
+  ]
+}
+

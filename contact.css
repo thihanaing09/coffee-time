@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  nav {
+    /* width: 1200px; */
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    background: linear-gradient(rgba(60, 42, 33, 0.5), rgba(60, 42, 33, 0.5));
+    color: #fff;
+    padding: 25px 30px;
+    /* margin: 10px; */
+  }
+
+
+  nav .logo {
+    margin-left: 2.5rem;
+  }
+
+
+  nav .logo img {
+    width: 70px;
+  }
+
+  nav .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav .nav-links {
+    margin-left: 350px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav-links li{
+    margin: 0 20px;
+  }
+
+  nav .nav-links a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+    transition: color 0.5s ease-in;
+  }
+
+  .nav-links a:hover{
+    color: orange;
+  }
+
+  nav .cart a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .contact-container{
+    margin-top: 20px;   
+
+  }
+
+  .contact-container h4{
+    text-align: center;
+    /* color: #fff; */
+
+    font-size: 25px;
+
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .contact-container p{
+    text-align: center;
+    /* color: #fff; */
+    font-size: 15px;
+
+  }
+
+
+  .row {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* background: var(--black); */
+   
+  
+    margin-top: 30px;
+  }
+
+
+.left{
+    width: 50%;
+    /* text-align: center; */
+  }
+  
+  .set-left{
+    width: 75%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .email{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: lowercase;
+  
+  }
+  
+  .right{
+    width: 50%;
+  }
+  
+  .right h3{
+    font-size: 25px; 
+    margin-bottom: 20px;   
+  }
+  
+  .form{
+    margin-top: 20px;
+  }
+  
+  .form-group{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;  
+  }
+  
+  .form-group label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .form-control{
+    width: 80%;
+    padding: 10px 8px;
+    border-radius: 10px;
+  }
+
+  .form-control:active{
+     border: 2px solid steelblue;
+  }
+
+
+  .form-group textarea{
+    width: 90%;
+  }
+  
+  .subbtn{
+    width: 120px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 13px;
+    background-color: orange;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .subbtn:hover{
+    background-color: #999;
+    color: brown;
+  }
+
+  .group-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .group{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+  }
+
+  .group i{
+    color: burlywood;
+    border-radius: 50%;
+    /* background-color: orange; */
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .group i:hover{
+    color: orange;
+  }
+
+  .small-group{
+    width: 160px;
+    margin-left: 0px;
+  }
+
+  .small-group h4{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .small-group p{
+    margin-top: 0px;
+  }
+
+
+  .more-info{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .more-info h4{
+    margin-bottom: 15px;
+  }
+
+  .lists{
+    display: flex;
+
+  }
+
+  .lists a{
+    text-decoration: none;
+    margin: 0 5px;
+    background-color: orange;
+    color: #eee;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  .list a i{
+    color: #000;
+  }
+
+  .map-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .map{
+    width: 50%;
+  }
+
+  .faqs{
+    width: 50%;
+  }
+
+  .faqs h4{
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .accordion-container {
+    height: 370px;
+}
+
+.accordion {
+    font-size: 18px;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    margin: 10px 5px;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion.active + .panel {
+    max-height: 200px; /* Adjust as needed */
+}
+
+.panel p {
+    font-size: 14px;
+}
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  #getyear{
+    color: orange;
+    font-size: 17px;
+  }
